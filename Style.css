@@ -1,0 +1,26 @@
+body {
+  background-color: White;
+}
+
+h1 {
+  p.double {border-style: double;}
+  font-family: Serif;
+  color: White;
+  background-color: #003399;
+  font-size: 80px;
+}
+
+h2 {
+  font-weight: bold;
+  font-style: italic;
+  font-family: Serif;
+  color: Black;
+  font-size: 40px;
+}
+
+p {
+  font-family: Arial;
+  color: Black;
+  background-color: #003399;
+  font-size: 7px;
+}
