@@ -18,30 +18,26 @@ h2 {
   font-size: 40px;
 }
 
-p {
+body {
   font-family: Monaco;
   color: Black;
   background-color: White;
   font-size: 25px;
 }
 
-p {
-  font-family: Monaco;
-  color: Black;
-  background-color: White;
-  font-size: 25px;
+
+* {
+  box-sizing: border-box;
 }
 
-p {
-  font-family: Monaco;
-  color: Black;
-  background-color: White;
-  font-size: 25px;
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
 }
 
-p {
-  font-family: Monaco;
-  color: Black;
-  background-color: White;
-  font-size: 25px;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
