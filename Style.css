@@ -42,6 +42,10 @@ body {
   display: table;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .column2 {
   float: left;
   width: 25%;
@@ -53,6 +57,7 @@ body {
   clear: both;
   display: table;
 }
+
 /* Text in image */
 .container1 {
   position: relative;
@@ -66,6 +71,7 @@ body {
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+  font-size: 10px;
 }
 
 .container2 {
@@ -80,6 +86,7 @@ body {
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+  font-size: 10px;
 }
 
 .container3 {
@@ -94,6 +101,7 @@ body {
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+  font-size: 10px;
 }
 
 .container4 {
@@ -108,4 +116,5 @@ body {
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+  font-size: 10px;
 }
