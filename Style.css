@@ -70,10 +70,11 @@ figcaption {
 /* Navigation */
 .pill-nav a {
   display: inline-block;
-  color: black;
+  color: #003399;
   text-align: center;
   padding: 14px;
   text-decoration: none;
+  font-family: Monaco;
   font-size: 17px;
   border-radius: 5px;
 }
